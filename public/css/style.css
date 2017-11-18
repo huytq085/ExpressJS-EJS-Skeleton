@@ -1,0 +1,57 @@
+body {
+    /*background-color: #555!important*/
+}
+#left{
+
+}
+#right {
+
+}
+#listMessages {
+    height: 200px;
+    /*background-color: #fcaed4*/
+}
+.loginForm {
+    display: none;
+}
+.chatForm {
+    display: none;
+}
+#listMessages {
+    height: 400px;
+    overflow: auto;
+}
+#listUsers {
+    height: 400px;
+    overflow: auto;
+}
+.sendBox {
+    padding: 10px;
+}
+#registerResult{
+    color: red;
+}
+.messages {
+    background-color: #d9edf7;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    clear: both;
+}
+.myRight {
+    float: right;
+    background: #eee;
+    color: #333;
+    text-align: right;
+    clear: both;
+}
+.navbar-right:hover {
+    background-color: #d9edf7;
+}
+
+@media(max-width:768px) {
+    #txtUserName {
+        margin-bottom: 10px;
+    }
+}
